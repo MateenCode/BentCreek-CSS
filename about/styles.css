@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  box-sizing:border-box;
+  Text: #131511
+}
+
+body{
+  background-color:#EFEEE2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12.5px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+li {
+   display:inline-block
+
+
+}
+
+li a {
+    color: #2B2F26;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #967343;
+}
+
+img{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+}
+
+h4{
+  padding-top: 12px;
+  padding-left: 15px;
+  color: #C2C7C0;
+  font-weight: lighter;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 15px;
+
+}
+
+p{
+font-family: fantasy;
+}
+
+.contentText{
+text-align: left;
+display:flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+padding: 70px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#birdHouse{
+  height: 60px;
+  width: 65px;
+  z-index: 0;
+  transform: translateY(-70px);
+
+}
+#imgGrow{
+  background-image: url("../images/background-3.jpg");
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+#quote{
+  border-left:1px solid grey;
+
+
+}
+
+
+th{
+  border: 1px solid grey;
+  padding: 10px;
+}
+td{
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+
+
+.footer_content {
+  background-color: #20241D;
+  height: 50px;
+}
